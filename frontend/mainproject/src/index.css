@@ -1,0 +1,602 @@
+
+.homeImage {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-height: 89vh;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/*login styling*/
+/* General styles for the login form */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* General styles for the signup form */
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the back-to-home link */
+.back-to-home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-to-home a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the sign-up/login links */
+.signup-link, .login-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup-link a, .login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover, .login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Admin Dashboard Styles */
+
+.admin-dashboard {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f4f7fa;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header{
+  background-color: #583265;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  color: #a8cf1c;
+}
+
+.dashboard-header p {
+  font-size: 1rem;
+  color: #278e3d;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dashboard-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.dashboard-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-btn:focus {
+  outline: none;
+}
+
+
+/* Devices Component Styles */
+.devices-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.devices-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.devices-container .error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.devices-container button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.devices-container .create-btn {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.devices-container .submit-btn {
+  background-color: #2196F3;
+  color: white;
+  border-radius: 5px;
+}
+
+.devices-container .cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+}
+
+.devices-container .edit-btn, .devices-container .delete-btn {
+  background-color: #f0ad4e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.devices-container .devices-list {
+  margin-top: 20px;
+}
+
+.devices-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.devices-container th, .devices-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.devices-container form {
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.devices-container .form-group {
+  margin-bottom: 15px;
+}
+
+.devices-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.devices-container input, .devices-container select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* General container for the users page */
+.users-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.create-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.assign-btn {
+  background-color: #FF9800;
+  color: white;
+}
+
+/* User form styling */
+.user-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group input[type="password"] {
+  font-family: Arial, sans-serif;
+}
+
+/* General table styling */
+.users-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.users-list table th, 
+.users-list table td {
+  padding: 12px;
+  text-align: left; /* Align text to the left */
+  vertical-align: middle; /* Align vertically to the middle */
+  border-bottom: 1px solid #ddd;
+}
+
+.users-list table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  text-align: left;
+}
+
+.users-list table td {
+  white-space: nowrap; /* Prevent wrapping for better alignment */
+}
+
+/* Styling for devices and action buttons */
+.users-list td select,
+.users-list td button {
+  margin-right: 10px; /* Add spacing between elements */
+}
+
+.users-list td span {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* User Dashboard Container */
+.user-dashboard {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.user-dashboard h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-dashboard h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+.user-dashboard p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Error Message */
+.error-message {
+  color: #d9534f;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Device List */
+.user-dashboard ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-dashboard li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard li p {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.user-dashboard li p strong {
+  color: #333;
+}
+
+/* Button Style (if needed in the future) */
+.user-dashboard .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.user-dashboard .button:hover {
+  background-color: #0056b3;
+}
